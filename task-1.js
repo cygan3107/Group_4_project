@@ -1,5 +1,5 @@
 "use strict";
-function makeTransaction(quantity, pricePerDroid, customerCredits) {
+/*function makeTransaction(quantity, pricePerDroid, customerCredits) {
   const totalPrice = quantity * pricePerDroid;
   if ( totalPrice <= customerCredits) {
     console.log(`You ordered ${quantity} droids worth ${totalPrice} credits!`);
@@ -75,3 +75,40 @@ if (grade >= 90) {
 } else {
     console.log("Unsatisfactorily");
 }*/
+/*
+let type;
+const age = 20;
+
+if (age >= 18) {
+  type = 'adult';
+} else {
+  type = 'child';
+}
+console.log(type); // 'adult'
+
+//Ten sam kod można przepisać z użyciem operatora trójargumentowego:
+const age = 20;
+const type = age >= 18 ? 'adult' : 'child';
+console.log(type); // 'adult'
+
+
+const a = 5;
+const b = 10;
+let biggerNumber;
+
+if (a > b) {
+  biggerNumber = a;
+} else {
+  biggerNumber = b;
+}
+console.log(biggerNumber); // 10
+
+//Ten sam kod można przepisać z użyciem operatora trójargumentowego:
+const a = 5;
+const b = 10;
+const biggerNumber = a > b ? a : b;
+console.log(biggerNumber); // 10
+*/
+
+
+
