@@ -108,7 +108,70 @@ const a = 5;
 const b = 10;
 const biggerNumber = a > b ? a : b;
 console.log(biggerNumber); // 10
+
+
+const fruit = 'apple';
+switch (fruit) {
+  case 'apple':
+    console.log('Apple selected');
+    break;
+  case 'banana':
+    console.log('Banana selected');
+    break;
+  case 'orange':
+    console.log('Orange selected');
+    break;
+  default:
+    console.log('The fruit is unknown');
+}
+
+const day = 3;
+switch (day) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log('This is a working day');
+    break;
+  case 6:
+  case 7:
+    console.log('It is a day off');
+    break;
+  default:
+    console.log('Invalid');
+}
+
+const message = "JavaScript is awesome";
+console.log(message.length); // 21
+
+const message = "JavaScript is awesome";
+console.log(message.toUpperCase()); // "JAVASCRIPT IS AWESOME"
+
+str.slice(startIndex, endIndex)
+
+gdzie:
+
+    str — źródłowy ciąg znaków, z którego będzie tworzona kopia.
+    startIndex — indeks, od którego zaczyna się kopiowanie elementów ciągu.
+    endIndex — indeks, do którego (nie włączając) idzie kopiowanie elementów ciągu.
+
+const fullName = "Jacob Mercer";
+console.log(fullName.slice()); // 'Jacob Mercer'
+
+const fullName = "Jacob Mercer";
+console.log(fullName.slice(1)); // 'acob Mercer'
+console.log(fullName.slice(3)); // 'ob Mercer'
+
+const fullName = "Jacob Mercer";
+console.log(fullName.slice(0, 4)); // 'Jaco'
+console.log(fullName.slice(3, 9)); // 'ob Mer'
+console.log(fullName.slice(0, fullName.length)); // 'Jacob Mercer'
+
+const fullName = "Jacob Mercer";
+const firstName = fullName.slice(0, 5);
+const lastName = fullName.slice(6);
+console.log(fullName); // "Jacob Mercer"
+console.log(firstName); // "Jacob"
+console.log(lastName); // "Mercer"
 */
-
-
-
